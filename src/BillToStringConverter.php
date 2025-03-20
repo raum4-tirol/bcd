@@ -3,14 +3,15 @@
 /**
  * BCD -Payment Qr Code Generation
  *
- * @copyright (c) AlpenEDV
+ * @copyright (c) QEDV - a brand of Raum4 GmbH
  * @author Eduard Duanreanu <eduard@alpenedv.at>
-*/
+ * @author Andreas Erhard <andreas@qedv.at>
+ */
 
-namespace Alpenedv\Tools\Bcd;
+namespace Qedv\Tools\Bcd;
 
-use Alpenedv\Tools\Bcd\Bill;
-use Alpenedv\Tools\Bcd\Exception\WrongTextFormatException;
+use Qedv\Tools\Bcd\Bill;
+use Qedv\Tools\Bcd\Exception\WrongTextFormatException;
 
 /**
  * Converts the Porperty from the Bill class to a long string

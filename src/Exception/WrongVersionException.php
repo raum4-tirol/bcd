@@ -3,11 +3,12 @@
 /*
  * BCD -Payment Qr Code Generation
  *
- * @copyright (c) AlpenEDV
+ * @copyright (c) QEDV - a brand of Raum4 GmbH
  * @author Eduard Duanreanu <eduard@alpenedv.at>
+ * @author Andreas Erhard <andreas@qedv.at>
  */
 
-namespace Alpenedv\Tools\Bcd\Exception;
+namespace Qedv\Tools\Bcd\Exception;
 
 use Exception;
 

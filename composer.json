@@ -1,11 +1,11 @@
 {
-    "name": "alpenedv/bcd",
+    "name": "qedv/bcd",
     "description": "BCD Payment-QR-Code",
     "type": "library",
     "license": "LGPL-3.0-only",
-    "homepage": "https://github.com/AlpenEDV/bcd",
+    "homepage": "https://github.com/raum4-tirol/bcd",
     "support": {
-        "issues": "https://github.com/AlpenEDV/bcd/issues"
+        "issues": "https://github.com/raum4-tirol/bcd/issues"
     },
     "authors": [
         {
@@ -14,7 +14,7 @@
         },
         {
             "name": "Andreas Erhard",
-            "email": "andreas@alpenedv.at"
+            "email": "andreas@qedv.at"
         }
     ],
     "require": {
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Alpenedv\\Tools\\Bcd\\": "src/"
+            "Qedv\\Tools\\Bcd\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Alpenedv\\Tools\\Bcd\\Tests\\": "tests/"
+            "Qedv\\Tools\\Bcd\\Tests\\": "tests/"
         }
     }
 }

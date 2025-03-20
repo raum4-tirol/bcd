@@ -3,16 +3,17 @@
 /**
  * BCD -Payment Qr Code Generation
  *
- * @copyright (c) AlpenEDV
+ * @copyright (c) QEDV - a brand of Raum4 GmbH
  * @author Eduard Duanreanu <eduard@alpenedv.at>
+ * @author Andreas Erhard <andreas@qedv.at>
  */
 
-namespace Alpenedv\Tools\Bcd;
+namespace Qedv\Tools\Bcd;
 
-use Alpenedv\Tools\Bcd\Exception\WrongCurrencyFormatException;
-use Alpenedv\Tools\Bcd\Exception\WrongNumberException;
-use Alpenedv\Tools\Bcd\Exception\WrongTextFormatException;
-use Alpenedv\Tools\Bcd\Exception\WrongVersionException;
+use Qedv\Tools\Bcd\Exception\WrongCurrencyFormatException;
+use Qedv\Tools\Bcd\Exception\WrongNumberException;
+use Qedv\Tools\Bcd\Exception\WrongTextFormatException;
+use Qedv\Tools\Bcd\Exception\WrongVersionException;
 
 /**
  * Bill saves every Property

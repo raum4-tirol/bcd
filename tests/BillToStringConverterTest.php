@@ -1,13 +1,14 @@
 <?php
 
-namespace Alpenedv\Tools\Bcd\Tests;
+namespace Qedv\Tools\Bcd\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Alpenedv\Tools\Bcd\Bill;
-use Alpenedv\Tools\Bcd\BillToStringConverter;
-use Alpenedv\Tools\Bcd\Exception\WrongCurrencyFormatException;
-use Alpenedv\Tools\Bcd\Exception\WrongNumberException;
-use Alpenedv\Tools\Bcd\Exception\WrongTextFormatException;
+
+use Qedv\Tools\Bcd\Bill;
+use Qedv\Tools\Bcd\BillToStringConverter;
+use Qedv\Tools\Bcd\Exception\WrongCurrencyFormatException;
+use Qedv\Tools\Bcd\Exception\WrongNumberException;
+use Qedv\Tools\Bcd\Exception\WrongTextFormatException;
 
 class BillToStringConverterTest extends TestCase
 {

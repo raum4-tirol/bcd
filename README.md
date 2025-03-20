@@ -20,7 +20,7 @@ The recommended way to install the BCD library is via composer.
 
 ```json
 "require": {
-    "alpenedv/bcd": "0.2.*"
+    "qedv/bcd": "0.2.*"
 }
 ```
 
@@ -29,8 +29,8 @@ The recommended way to install the BCD library is via composer.
 ```php
 require_once('vendor/autoload.php');
 
-use Alpenedv\Tools\Bcd\Bill;
-use Alpenedv\Tools\Bcd\BillToStringConverter;
+use Qedv\Tools\Bcd\Bill;
+use Qedv\Tools\Bcd\BillToStringConverter;
 
 $bill = new Bill();
 $bill->setVersion(Bill::VERSION_2); // optional, as version 2 is the default

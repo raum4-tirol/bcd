@@ -1,12 +1,13 @@
 <?php
 
-namespace Alpenedv\Tools\Bcd\Tests;
+namespace Qedv\Tools\Bcd\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Alpenedv\Tools\Bcd\Bill;
-use Alpenedv\Tools\Bcd\BillToStringConverter;
-use Alpenedv\Tools\Bcd\QRCodeGenerator;
 use TCPDF;
+
+use Qedv\Tools\Bcd\Bill;
+use Qedv\Tools\Bcd\BillToStringConverter;
+use Qedv\Tools\Bcd\QRCodeGenerator;
 
 class QrCodeGeneratorTest extends TestCase
 {

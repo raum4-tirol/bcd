@@ -1,17 +1,15 @@
 <?php
 
 /* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Example for usage of the library.
  */
 
 require_once('vendor/autoload.php');
 require_once('vendor/tecnickcom/tcpdf/examples/tcpdf_include.php');
 
-use Alpenedv\Tools\Bcd\Bill;
-use Alpenedv\Tools\Bcd\BillToStringConverter;
-use Alpenedv\Tools\Bcd\QRCodeGenerator;
+use Qedv\Tools\Bcd\Bill;
+use Qedv\Tools\Bcd\BillToStringConverter;
+use Qedv\Tools\Bcd\QRCodeGenerator;
 $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
 $bill = new Bill();
 $bill->setVersion(Bill::VERSION_1)
